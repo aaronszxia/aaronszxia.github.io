@@ -7,7 +7,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>YAPW | Yet Another Personal Website</title>
+  <title>
+    {% if page.title %}
+    {{ page.title }} |
+    {% endif %}
+
+    YAPW
+  </title>
   <meta name="description" content="A website you've never seen before.">
   <meta name="author" content="夏龙飞">
 
@@ -59,13 +65,10 @@
             d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
         </svg>
       </a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+      <a class="py-2 d-none d-md-inline-block" href="/place-recorder">打个卡呗</a>
+      <a class="py-2 d-none d-md-inline-block" href="/bookmark">网站收藏夹</a>
+      <a class="py-2 d-none d-md-inline-block" href="/xialiaozhushou">下料助手</a>
+      <a class="py-2 d-none d-md-inline-block" href="/cv">简历</a>
     </nav>
   </header>
 
@@ -93,16 +96,18 @@
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-    <!-- 换用国内CDN -->
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <!-- <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script> -->
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <!-- 换用国内CDN -->
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <!-- <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script> -->
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
